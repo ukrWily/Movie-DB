@@ -1,8 +1,9 @@
 
 'use strict';
 
-
-const movieDB = {
+document.addEventListener('DOMContentLoaded', () => {
+    
+    const movieDB = {
     movies: [
         "Логан",
         "Лига справедливости",
@@ -81,3 +82,5 @@ function addDelButton(){
     })
 }
 addDelButton();
+
+})
